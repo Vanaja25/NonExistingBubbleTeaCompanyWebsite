@@ -1,0 +1,138 @@
+body {
+    background-color: #ffffff;
+}
+
+.bg-gradient {
+    background-color: #FEE140;
+background-image: linear-gradient(90deg, #f0ad4e 0%, #FA709A 50%, #dd3573 100%  100%);
+}
+.bg-extradark {
+    background-color: #252525;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: rgba(121,97,9,1);
+}
+.bg-gradient.card:hover {
+    opacity: 0.1; 
+    color: white;
+}
+.bg-opacity-50 {
+    background-color: rgba(204, 169, 13, 0.259); 
+}
+
+.bg-opacity-60 {
+    background-color: rgba(225, 225, 222, 0.152); 
+}
+
+.bg-opacity-50:hover {
+    background-color: rgba(27, 27, 27, 0.399); 
+}
+html {
+    scroll-behavior: smooth;
+}
+nav ul li a {
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ffc107; 
+}
+.logo {
+    max-width: 90px; 
+    height: auto; 
+}
+
+.bg-raidal {
+    background: rgb(2,0,36);
+    background: radial-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,97,9,1) 35%, rgba(52,162,149,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.rotate {
+    transition: transform 0.5s ease; 
+}
+
+.rotate:hover {
+    transform: rotate(360deg); 
+
+}
+
+.producto {
+    font-size: 2.5rem;
+}
+
+.contacto {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.bg-extradark {
+    background-color: #252525;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color:rgba(121,97,9,1);
+}
+.bg-gradient.card:hover {
+    opacity: 0.1; 
+    color: white;
+}
+.bg-opacity-50 {
+    background-color: rgba(212, 211, 208, 0.259); 
+}
+
+.bg-opacity-50:hover {
+    background-color: rgba(27, 27, 27, 0.399); 
+}
+html {
+scroll-behavior: smooth;
+}
+nav ul li a {
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ffc107; 
+}
+.logo {
+    max-width: 90px;
+    height: auto; 
+}
+
+.carousel-control-prev {
+    left: -10px; 
+}
+
+
+.carousel-control-next {
+    right: -10px; 
+}
+
+.img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+.bg-logo { 
+    background-image: url('obrázky/logo1.png'); 
+    background-size:contain ; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+#productCarousel {
+    border-radius: 60%;
+    max-width: 50vh;
+    margin: 0 auto; 
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%);
+
+}

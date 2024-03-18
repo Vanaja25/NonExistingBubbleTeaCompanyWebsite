@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokko - Kontakt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="obrázky/logo.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">O nás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Kuličkový lístek</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+
+    <!-- Content -->
+    <section class="bg-gradient text-white py-5">
+            <div class="container ">
+                <div class="row p-5 rounded">
+                    <div class="mapouter mb-2"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=2880 Broadway, New York&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed code google maps</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+                    <div class=" col-md-4 bg-opacity-50 text-center py-5 mb-2 border rounded">
+                        <i class="bi bi-telephone-fill" style="font-size: 5rem;" ></i>
+                        <h2 class="contacto">601000222</h2>
+                    </div>
+                    <div class=" col-md-4 bg-opacity-50 text-center py-5 border rounded mb-2"  style="font-size: 5rem;">
+                        <i class="bi bi-at"></i>
+                        <h2 class="contacto">erfngfg@sdfmnef.vom</h2>
+                    </div>
+                    <div class=" col-md-4 bg-opacity-50 text-center py-5 border rounded mb-2">
+                        <i class="bi bi-person-check-fill"  style="font-size: 5rem;"></i>
+                        <h2 class="contacto">ofmm ofj ofj </h2>
+                    </div>
+                </div>
+    </section>
+    
+        <!-- Contact form -->
+        <section class="bg-gradient text-white py-5">
+            <div class="container">
+                <h2 class="text-center py-4">Kontaktujte nás</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Jméno:</label>
+                        <input type="text" class="form-control bg-opacity-50 text-white" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control bg-opacity-50 text-white" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Zpráva:</label>
+                        <textarea class="form-control bg-opacity-50 text-white" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn bg-opacity-50 text-white rounded">Odeslat</button>
+                </form>
+            </div>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer -->
+    <footer class="bg-extradark text-white py-4 text-decoration-none">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 py-4">
+                  <a class="navbar-brand" href="#">
+                      <img src="obrázky/logo.png" class="logo">
+
+                  </a>
+                  <p>Svět kuliček na jednom místě</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Odkazy</h4>
+                    <ul class="list-unstyled ">
+                        <li><a href="index.html">Domů</a></li>
+                        <li><a href="about.html">O nás</a></li>
+                        <li><a href="services.html">Kuličkový lístek</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Sociální sítě</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+
+
+
+
+

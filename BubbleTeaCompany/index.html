@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokko - Vítejte ve světě kuliček</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="obrázky/logo.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">O nás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Kuličkový lístek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+    <!-- Hero Section -->
+<section class="bg-warning bg-gradient text-center text-white text-shadow py-5 rounded-down">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="obrázky/products.png" alt="Obrázek 1" class="img-fluid" style="width: 70vh;">
+            </div>
+            <div class="col-md-6 py-5">
+                <h1>Vítejte ve světě kuliček</h1>
+                <p>Máme pro vás spoustu užitečných informací. Na tomto webu můžete najít produkty, které nikde jinde nenajdete. Pro věrné zákazníky nabízíme věrnostní program se spoustou výhod, které určitě oceníte. </p>
+                <button class="btn bg-opacity-50 text-white">Mé tlačítko</button>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Articles -->
+  <section class="bg-white rounded-top py-5">
+    <div class="container">
+        <h2 class="text-dark text-center py-5 producto">Články</h2>
+        <div class="row">
+            <!-- Article -->
+            <div class="col-md-4 mb-4">
+              <div class="bg-gradient card rounded">
+                  <div class="text-white card-body">
+                      <a href="#" class="text-decoration-none">
+                          <h5 class="card-title">První článek</h5>
+                      </a>
+                      <p class="card-text">Toto je obsah prvního článku.</p>
+                  </div>
+              </div>
+          </div>
+  
+            <!-- Article -->
+            <div class="col-md-4 mb-4">
+              <div class="bg-gradient card rounded">
+                  <div class="text-white card-body">
+                      <a href="#" class="text-decoration-none">
+                          <h5 class="card-title">Druhý článek</h5>
+                      </a>
+                      <p class="card-text">Toto je obsah druhého článku.</p>
+                  </div>
+              </div>
+          </div>
+  
+            <!-- Article -->
+            <div class="col-md-4 mb-4">
+                <div class="bg-gradient card rounded">
+                    <div class="text-white card-body">
+                        <a href="#" class="text-decoration-none">
+                            <h5 class="card-title">Třetí článek</h5>
+                        </a>
+                        <p class="card-text">Toto je obsah třetího článku.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!-- Carousel -->
+<section class="bg-extradark py-5 mb-4">
+    <div class="container">
+        <h2 class="text-white py-4 text-center mb-6">Naše produkty</h2>
+        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Product 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center">
+                        <a data-toggle="modal" data-target="#tea1Modal">
+                            <img src="obrázky/image1.png" class="d-block mx-auto" style="width: 40vh;" alt="Čaj 1">
+                        </a>
+                        <h5 class="card-title position-absolute w-50 h-50 producto d-flex flex-column justify-content-center align-items-center text-white text-center mt-4">Malinoi</h5>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <a data-toggle="modal" data-target="#tea2Modal">
+                            <img src="obrázky/image2.png" class="d-block mx-auto" style="width: 40vh;" alt="Čaj 2">
+                        </a>
+                        <h5 class="card-title position-absolute w-50 h-50 d-flex flex-column justify-content-center align-items-center producto text-white text-center mt-4">Marakujoi</h5>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <a data-toggle="modal" data-target="#tea3Modal">
+                            <img src="obrázky/image3.png" class="d-block mx-auto" style="width: 40vh;" alt="Čaj 3">
+                        </a>
+                        <h5 class="card-title position-absolute w-50 h-50 producto text-white d-flex flex-column justify-content-center align-items-center text-center mt-4">Boruvkoi</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Modal windows -->
+<!-- Modal window - product 1 -->
+<div class="modal fade" id="tea1Modal" tabindex="-1" role="dialog" aria-labelledby="tea1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-secondary text-white">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="tea1ModalLabel">Čaj 1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="text-align: center;">
+                    <img style="width: 25vh; display: inline-block;" src="obrázky/image1.png" alt="">
+                </div>
+                <p>Čaj 1 obsahuje:</p>
+                <ul>
+                    <li>Kedlubna - 25g</li>
+                    <li>Mrkev - 5g</li>
+                    <li>Jahoda - 7g</li>
+                    <li>Meloun - 13g</li>
+                    <li>Malina - 54g</li>
+                </ul>
+                <p>Nutriční hodnoty:</p>
+                <ul>
+                    <li>Bílkoviny: 36g</li>
+                    <li>Sacharidy: 70g</li>
+                    <li>Tuky: 80g</li>
+                </ul>
+            </div>
+            
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Zavřít</button>
+                <button type="button" class="btn btn-secondary bg-gradient" data-dismiss="modal">Objednat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal window - product 2 -->
+<div class="modal fade" id="tea2Modal" tabindex="-1" role="dialog" aria-labelledby="tea2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-secondary text-white">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="tea1ModalLabel">Čaj 2</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="text-align: center;">
+                    <img style="width: 25vh; display: inline-block;" src="obrázky/image2.png" alt="">
+                </div>
+                <p>Čaj 2 obsahuje:</p>
+                <ul>
+                    <li>Kedlubna - 25g</li>
+                    <li>Mrkev - 5g</li>
+                    <li>Jahoda - 7g</li>
+                    <li>Meloun - 13g</li>
+                    <li>Malina - 54g</li>
+                </ul>
+                <p>Nutriční hodnoty:</p>
+                <ul>
+                    <li>Bílkoviny: 36g</li>
+                    <li>Sacharidy: 70g</li>
+                    <li>Tuky: 80g</li>
+                </ul>
+            </div>
+            
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Zavřít</button>
+                <button type="button" class="btn btn-secondary bg-gradient" data-dismiss="modal">Objednat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal window - product 3 -->
+<div class="modal fade" id="tea3Modal" tabindex="-1" role="dialog" aria-labelledby="tea3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-secondary text-white">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="tea1ModalLabel">Čaj 3</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="text-align: center;">
+                    <img style="width: 25vh; display: inline-block;" src="obrázky/image3.png" alt="">
+                </div>
+                <p>Čaj 3 obsahuje:</p>
+                <ul>
+                    <li>Kedlubna - 25g</li>
+                    <li>Mrkev - 5g</li>
+                    <li>Jahoda - 7g</li>
+                    <li>Meloun - 13g</li>
+                    <li>Malina - 54g</li>
+                </ul>
+                <p>Nutriční hodnoty:</p>
+                <ul>
+                    <li>Bílkoviny: 36g</li>
+                    <li>Sacharidy: 70g</li>
+                    <li>Tuky: 80g</li>
+                </ul>
+            </div>
+            
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Zavřít</button>
+                <button type="button" class="btn btn-secondary bg-gradient" data-dismiss="modal">Objednat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Content -->
+    <section class="bg-white text-dark py-5 rounded">
+        <div class="container">
+            <h2 class="text-center mb-5">O nás</h2>
+            <div class="row">
+                <div class="col-md-6 py-4">
+                    <p>Máme pro vás spoustu užitečných informací. Na tomto webu můžete najít široký sortiment produktů, které nikde jinde nenajdete. Naše vášnivé a zkušené týmy pracují denně na tom, aby vám přinesli ty nejlepší produkty z celého světa.</p>
+                    <p>Pro naše věrné zákazníky máme připravený věrnostní program, který vám nabízí spoustu výhod. Získáte přístup k exkluzivním slevám, speciálním akcím a novým produktům před ostatními. Vaše spokojenost a loajalita jsou pro nás na prvním místě, a proto se snažíme udělat vše pro to, abyste byli nadšení z našich služeb a produktů.</p>
+                    <p>Pokud máte jakékoli dotazy nebo potřebujete pomoc, neváhejte nás kontaktovat. Jsme tu pro vás a rádi vám poskytneme veškeré informace a rady, které potřebujete. Děkujeme vám za vaši důvěru a těšíme se na to, že vás můžeme přivítat mezi našimi spokojenými zákazníky.</p>
+                </div>
+                <div class="col-md-6 mb-4 py-5">
+                <img src="obrázky/Snímek obrazovky 2023-10-07 204943.jpg" class="rounded-circle text-center" alt="" style="width: 50vh; text-align: center;">
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+    <!-- Contact form -->
+    <section class="bg-gradient text-white py-5">
+        <div class="container">
+            <h2 class="text-center py-4">Kontaktujte nás</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Jméno:</label>
+                    <input type="text" class="form-control bg-opacity-50 text-white" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control bg-opacity-50 text-white" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Zpráva:</label>
+                    <textarea class="form-control bg-opacity-50 text-white" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn bg-opacity-50 text-white rounded">Odeslat</button>
+            </form>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer -->
+    <footer class="bg-extradark text-white py-4 text-decoration-none">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 py-4">
+                  <a class="navbar-brand" href="#">
+                      <img src="obrázky/logo.png" class="logo">
+                      
+                  </a>
+                  <p>Svět kuliček na jednom místě</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Odkazy</h4>
+                    <ul class="list-unstyled ">
+                        <li><a href="index.html">Domů</a></li>
+                        <li><a href="about.html">O nás</a></li>
+                        <li><a href="services.html">Kuličkový lístek</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Sociální sítě</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </footer>
